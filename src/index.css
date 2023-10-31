@@ -1,5 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+@font-face {
+  font-family: 'Abygaer';
+  src: local('Abygaer'), url(./fonts/Abygaer.otf) format('otf');
+
+}
+
+
+@font-face {
+  font-family: "YDGothic 160 Pro";
+  src: url("https://db.onlinewebfonts.com/t/5ee32e5e72d73ea2d817188a73ca7c6f.eot");
+  src: url("https://db.onlinewebfonts.com/t/5ee32e5e72d73ea2d817188a73ca7c6f.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/5ee32e5e72d73ea2d817188a73ca7c6f.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/5ee32e5e72d73ea2d817188a73ca7c6f.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/5ee32e5e72d73ea2d817188a73ca7c6f.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/5ee32e5e72d73ea2d817188a73ca7c6f.svg#YDGothic 160 Pro")format("svg");
+}
+
+@font-face {
+  font-family: 'mursgothic-widedark';
+  src: local('mursgothic-widedark'), url(./fonts/mursgothic-widedark.otf) format('otf');
+
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  src: url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap");
+  
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,14 +38,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Courier Prime', monospace;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
+}
+
+
+a {
+  font-family: "mursgothic-widedark"
 }
 
 .hash-span {
-  margin-top: -100px;
-  padding-bottom: 100px;
+  margin-top: -25px;
+  padding-bottom: 25px;
   display: block;
 }
 
