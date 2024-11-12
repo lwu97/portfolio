@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import leon from "../assets/leon.svg";
+import leon from "../assets/leon.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -82,7 +82,7 @@ const Navbar = () => {
                   key={link.id}
                   className={`${
                     active === link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                  } font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);

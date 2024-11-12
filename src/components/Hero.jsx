@@ -12,7 +12,7 @@ const Hero = () => {
       >
         
         <div>
-          <h1 className={`${styles.heroHeadText} text-white font-[Abygaer] mb-40`}>
+          <h1 className={`${styles.heroHeadText} text-white font-[mursgothic-widedark] mb-40`}>
             <span className="text-white font-[mursgothic-widedark]">LEON WU.</span>
             {/* <p className={`${styles.heroSubText} mt-2 text-white font-[Abygaer]`}>
               I develop user <br className="sm:block hidden" />

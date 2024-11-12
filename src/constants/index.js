@@ -19,9 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    breadit,
     threejs,
   } from "../assets";
 
@@ -29,36 +27,36 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "ABOUT",
     },
     {
       id: "work",
-      title: "Work",
+      title: "WORK",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "CONTACT",
     },
   ];
   
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
+  // const services = [
+  //   {
+  //     title: "Web Developer",
+  //     icon: web,
+  //   },
+  //   {
+  //     title: "React",
+  //     icon: mobile,
+  //   },
+  //   {
+  //     title: "Backend Developer",
+  //     icon: backend,
+  //   },
+  //   {
+  //     title: "Content Creator",
+  //     icon: creator,
+  //   },
+  // ];
   
   const technologies = [
     {
@@ -97,10 +95,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
     {
       name: "git",
       icon: git,
@@ -117,16 +115,15 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Technology Analyst",
+      company_name: "Accenture",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Conducted comprehensive manual and automated testing on mobile application used by Coles for their Automated Customer Fulfilment Centre.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Documented test results, defect reports, and testing progress, maintaining detailed records for reference and reporting",
       ],
     },
     {
@@ -170,38 +167,13 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Breadit",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A full stack Reddit-inspired post sharing site that enables users to register, login, create posts, as well as upvote and downvote",
       tags: [
         {
           name: "react",
@@ -216,13 +188,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: breadit,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "SelfCare",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An android app that caters for personal self-care and utilises AR technology to engage the user with the outside world. Utilises MVVM Architecture and various phone sensors to operate.",
       tags: [
         {
           name: "react",
@@ -237,31 +209,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export {technologies, experiences, projects };
   
