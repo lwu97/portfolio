@@ -25,8 +25,8 @@ const App = () => {
 
                         {/* Right column - Scrollable content */}
                         <main className="w-[52%] py-6">
-                            {/* <Experience /> */}
                             <Tech />
+                            <Experience />
                             <Works />
                         </main>
                     </div>

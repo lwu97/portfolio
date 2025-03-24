@@ -11,9 +11,9 @@ const Tech = () => {
             <motion.div variants={textVariant()}>
                 <h2 className={styles.sectionHeadText}>TECHNOLOGIES</h2>
             </motion.div>
-            <div className="flex flex-row flex-wrap justify-start gap-10 py-6">
+            <div className="flex flex-row flex-wrap justify-start gap-6 py-6 ">
                 {technologies.map((technology) => (
-                    <div className="w-28 h-28" key={technology.name}>
+                    <div className="w-24 h-24" key={technology.name}>
                         <BallCanvas icon={technology.icon} />
                     </div>
                 ))}

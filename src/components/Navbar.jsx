@@ -7,22 +7,22 @@ import { menu, close } from "../assets";
 const Navbar = () => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
-    // const [scrolled, setScrolled] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         const scrollTop = window.scrollY;
-    //         if (scrollTop > 100) {
-    //             setScrolled(true);
-    //         } else {
-    //             setScrolled(false);
-    //         }
-    //     };
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            if (scrollTop > 100) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
 
-    //     window.addEventListener("scroll", handleScroll);
+        window.addEventListener("scroll", handleScroll);
 
-    //     return () => window.removeEventListener("scroll", handleScroll);
-    // }, []);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
         <nav className={`${styles.paddingX}  bg-transparent`}>
