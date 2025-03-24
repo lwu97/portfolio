@@ -11,7 +11,15 @@
     src: local("MonumentGrotesk-Bold"),
         url(./fonts/MonumentGrotesk-Bold.woff2) format("woff2");
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "MonumentGrotesk";
+    src: local("MonumentGrotesk-Medium"),
+        url(./fonts/MonumentGrotesk-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: semi-bold;
 }
 
 @tailwind base;

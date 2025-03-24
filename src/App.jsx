@@ -3,7 +3,6 @@ import { EarthCanvas } from "./components/canvas";
 import {
     About,
     Experience,
-    Hero,
     Navbar,
     Tech,
     Works,
@@ -21,23 +20,18 @@ const App = () => {
                     <div className="flex justify-between gap-4">
                         <header className="sticky top-0 flex max-h-screen w-[48%] flex-col justify-between py-24">
                             <Navbar />
-                            <div className="flex h-64">
-                                {/* <EarthCanvas /> */}
-                            </div>
+                            <div className="flex h-64"></div>
                         </header>
 
                         {/* Right column - Scrollable content */}
                         <main className="w-[52%] py-6">
-                            {/* <Hero /> */}
-
-                            {/* <About /> */}
-                            <Experience />
+                            {/* <Experience /> */}
                             <Tech />
                             <Works />
                         </main>
                     </div>
+                    <EarthCanvas />
                 </div>
-                {/* Left column - Static navbar */}
             </div>
         </BrowserRouter>
     );
