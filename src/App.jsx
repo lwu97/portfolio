@@ -30,7 +30,7 @@ const App = () => {
                         <main className="w-[52%] py-6">
                             {/* <Hero /> */}
 
-                            <About />
+                            {/* <About /> */}
                             <Experience />
                             <Tech />
                             <Works />

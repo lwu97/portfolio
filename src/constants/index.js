@@ -4,13 +4,12 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    nextjs,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
+    postgresql,
     breadit,
     threejs,
 } from "../assets";
@@ -71,8 +70,8 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Next.js",
+        icon: nextjs,
     },
     {
         name: "Tailwind CSS",
@@ -83,8 +82,8 @@ const technologies = [
         icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
+        name: "PostgreSQL",
+        icon: postgresql,
     },
     {
         name: "Three JS",
@@ -98,64 +97,21 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
 ];
 
 const experiences = [
-    // {
-    //     title: "Technology Analyst",
-    //     company_name: "Accenture",
-    //     icon: starbucks,
-    //     iconBg: "#383E56",
-    //     date: "Feb 2023 - Present",
-    //     points: [
-    //         "Conducted comprehensive manual and automated testing on mobile application used by Coles for their Automated Customer Fulfilment Centre.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Documented test results, defect reports, and testing progress, maintaining detailed records for reference and reporting",
-    //     ],
-    // },
-    // {
-    //     title: "React Native Developer",
-    //     company_name: "Tesla",
-    //     icon: tesla,
-    //     iconBg: "#E6DEDD",
-    //     date: "Jan 2021 - Feb 2022",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Web Developer",
-    //     company_name: "Shopify",
-    //     icon: shopify,
-    //     iconBg: "#383E56",
-    //     date: "Jan 2022 - Jan 2023",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#E6DEDD",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    {
+        title: "Technology Analyst",
+        company_name: "Accenture",
+        icon: null,
+        iconBg: "#383E56",
+        date: "Feb 2023 - Present",
+        points: [
+            "Conducted comprehensive manual and automated testing on mobile application used by Coles for their Automated Customer Fulfilment Centre.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Documented test results, defect reports, and testing progress, maintaining detailed records for reference and reporting",
+        ],
+    },
 ];
 
 const projects = [

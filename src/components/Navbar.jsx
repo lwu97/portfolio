@@ -41,8 +41,8 @@ const Navbar = () => {
                         LEON WU
                     </h1>
                 </Link>
-                <h2 className="text-beige font-mon text-[24px] m-0">
-                    FULL STACK DEVELOPER
+                <h2 className="text-beige font-mon text-[24px] -mt-4 p-0">
+                    PORTFOLIO
                 </h2>
                 <ul className="flex flex-col gap-2 pt-8">
                     {navLinks.map((link) => (
