@@ -20,6 +20,7 @@ import threejs from "./tech/Threejs-logo.png";
 import postgresql from "./tech/postgresql.png";
 
 import breadit from "./breadit.png";
+import petsoft from "./petsoft.png";
 
 export {
     backend,
@@ -42,4 +43,5 @@ export {
     threejs,
     breadit,
     nextjs,
+    petsoft,
 };

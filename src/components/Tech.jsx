@@ -8,10 +8,10 @@ import { SectionWrapper } from "../hoc";
 const Tech = () => {
     return (
         <>
-            <motion.div variants={textVariant()}>
+            {/* <motion.div variants={textVariant()}>
                 <h2 className={styles.sectionHeadText}>TECHNOLOGIES</h2>
-            </motion.div>
-            <div className="flex flex-row flex-wrap justify-start gap-6 py-6 ">
+            </motion.div> */}
+            <div className="flex flex-row flex-wrap justify-start gap-6 pb-6 ">
                 {technologies.map((technology) => (
                     <div className="w-24 h-24" key={technology.name}>
                         <BallCanvas icon={technology.icon} />

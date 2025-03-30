@@ -13,7 +13,7 @@ import {
 const App = () => {
     return (
         <BrowserRouter>
-            <div className="bg-[#171c14]">
+            <div className="bg-[#030e0a]">
                 <div className=" mx-auto min-h-screen max-w-screen-xl px-6 py-0 ">
                     <StarsCanvas />
 
@@ -26,7 +26,7 @@ const App = () => {
                         {/* Right column - Scrollable content */}
                         <main className="w-[52%] py-6">
                             <Tech />
-                            <Experience />
+                            {/* <Experience /> */}
                             <Works />
                         </main>
                     </div>

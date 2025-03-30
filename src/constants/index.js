@@ -12,6 +12,7 @@ import {
     postgresql,
     breadit,
     threejs,
+    petsoft,
 } from "../assets";
 
 export const navLinks = [
@@ -19,10 +20,10 @@ export const navLinks = [
         id: "tech",
         title: "TECH",
     },
-    {
-        id: "experience",
-        title: "EXPERIENCE",
-    },
+    // {
+    //     id: "experience",
+    //     title: "EXPERIENCE",
+    // },
     {
         id: "projects",
         title: "PROJECTS",
@@ -116,6 +117,27 @@ const experiences = [
 
 const projects = [
     {
+        name: "PetSoft",
+        description:
+            "Pet management dashboard enabling users and maintain pet day-care with ease.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: petsoft,
+        source_code_link: "https://github.com/",
+    },
+    {
         name: "Breadit",
         description:
             "A full stack Reddit-inspired post sharing site that enables users to register, login, create posts, as well as upvote and downvote",
@@ -135,25 +157,6 @@ const projects = [
         ],
         image: breadit,
         source_code_link: "https://github.com/",
-    },
-    {
-        name: "SelfCare",
-        description:
-            "An android app that caters for personal self-care and utilises AR technology to engage the user with the outside world. Utilises MVVM Architecture and various phone sensors to operate.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
     },
 ];
 
