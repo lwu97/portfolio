@@ -135,7 +135,7 @@ const projects = [
             },
         ],
         image: petsoft,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/lwu97/petsoft",
     },
     {
         name: "Breadit",
@@ -156,7 +156,7 @@ const projects = [
             },
         ],
         image: breadit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/lwu97/breadit",
     },
 ];
 

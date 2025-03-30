@@ -30,8 +30,8 @@ const App = () => {
                             <Works />
                         </main>
                     </div>
-                    <EarthCanvas />
                 </div>
+                <EarthCanvas />
             </div>
         </BrowserRouter>
     );
