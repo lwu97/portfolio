@@ -13,25 +13,25 @@ import {
 const App = () => {
     return (
         <BrowserRouter>
-            <div className="bg-[#030e0a]">
-                <div className=" mx-auto min-h-screen max-w-screen-xl px-6 py-0 ">
-                    <StarsCanvas />
+            <div className="bg-[#121110]">
+                <div className="min-h-screen max-w-screen-xl px-20 ml-0 mr-auto">
+                    {/* <StarsCanvas /> */}
 
                     <div className="flex justify-between gap-4">
-                        <header className="sticky top-0 flex max-h-screen w-[48%] flex-col justify-between py-24">
+                        <header className="sticky top-0 flex max-h-screen w-[40%] flex-col justify-start py-12">
                             <Navbar />
                             <div className="flex h-64"></div>
                         </header>
 
                         {/* Right column - Scrollable content */}
-                        <main className="w-[52%] py-6">
+                        <main className="w-[60%] py-6">
                             <Tech />
-                            {/* <Experience /> */}
+                            <Experience />
                             <Works />
                         </main>
                     </div>
                 </div>
-                <EarthCanvas />
+                {/* <EarthCanvas /> */}
             </div>
         </BrowserRouter>
     );

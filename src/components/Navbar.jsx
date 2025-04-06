@@ -36,12 +36,12 @@ const Navbar = () => {
                     }}
                 >
                     <h1
-                        className={` text-green font-mon text-[64px] font-bold m-0 p-0`}
+                        className={` text-green font-mon font-bold text-[48px]`}
                     >
-                        LEON WU
+                        LEON
                     </h1>
                 </Link>
-                <h2 className="text-beige font-mon text-[24px] -mt-4 p-0">
+                <h2 className="text-beige font-mon text-[16px] -mt-3 p-0">
                     PORTFOLIO
                 </h2>
                 <ul className="flex flex-col gap-2 pt-8">
