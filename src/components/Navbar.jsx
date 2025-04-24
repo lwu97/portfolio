@@ -25,8 +25,8 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`${styles.paddingX}  bg-transparent`}>
-            <div className="flex flex-col items-start ">
+        <nav className={`w-full fixed top-0 left-0 bg-[#1F1F1F]`}>
+            <div className="flex justify-between items-center pr-8 pt-4">
                 <Link
                     to="/"
                     className="flex items-center"
@@ -34,17 +34,9 @@ const Navbar = () => {
                         setActive("");
                         window.scrollTo(0, 0);
                     }}
-                >
-                    <h1
-                        className={` text-green font-mon font-bold text-[48px]`}
-                    >
-                        LEON
-                    </h1>
-                </Link>
-                <h2 className="text-beige font-mon text-[16px] -mt-3 p-0">
-                    PORTFOLIO
-                </h2>
-                <ul className="flex flex-col gap-2 pt-8">
+                ></Link>
+
+                <ul className="flex gap-8 py-2">
                     {navLinks.map((link) => (
                         <li
                             key={link.id}
@@ -74,7 +66,7 @@ const Navbar = () => {
                             !toggle ? "hidden" : "flex"
                         } p-6 black-gradient  absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
                     >
-                        <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
+                        <ul className="list-none flex justify-end items-end flex-1 gap-4">
                             {navLinks.map((link) => (
                                 <li
                                     key={link.id}

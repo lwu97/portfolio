@@ -5,6 +5,7 @@ export default {
         extend: {
             fontFamily: {
                 mon: ["MonumentGrotesk-Regular", "sans-serif"], // Default to your custom font
+                basement: ["BasmentGrotesque", "sans-serif"],
             },
             colors: {
                 primary: "#191919",
@@ -25,4 +26,12 @@ export default {
         },
     },
     plugins: [],
+    function({ addUtilities, theme }) {
+        addUtilities({
+            ".text-outline": {
+                "-webkit-text-stroke": `1px ${theme("#FFF")}`,
+                color: "transparent",
+            },
+        });
+    },
 };

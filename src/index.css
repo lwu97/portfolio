@@ -22,6 +22,12 @@
     font-style: semi-bold;
 }
 
+@font-face {
+    font-family: "BasmentGrotesque";
+    src: local("BasmentGrotesque"),
+        url(./fonts/BasementGrotesque.woff2) format("woff2");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -46,6 +52,16 @@ body {
     scroll-behavior: smooth;
     color-scheme: light;
     font-family: "MonumentGrotesk-Regular";
+}
+
+.h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.text-outline {
+    -webkit-text-stroke: 2px white; /* You can adjust the stroke width and color */
+    color: transparent; /* Makes the inside of the text transparent */
 }
 
 .hash-span {

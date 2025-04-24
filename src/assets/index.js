@@ -21,6 +21,7 @@ import postgresql from "./tech/postgresql.png";
 
 import breadit from "./breadit.png";
 import petsoft from "./petsoft.png";
+import fromsky from "./from_sky.webp";
 
 export {
     backend,
@@ -44,4 +45,5 @@ export {
     breadit,
     nextjs,
     petsoft,
+    fromsky,
 };

@@ -1,35 +1,42 @@
 import { BrowserRouter } from "react-router-dom";
-import { EarthCanvas } from "./components/canvas";
-import {
-    About,
-    Experience,
-    Navbar,
-    Tech,
-    Works,
-    StarsCanvas,
-} from "./components";
-// #171c14
-// #1b2a2b
+import { About, Experience, Navbar, Tech, Works } from "./components";
+import { fromsky } from "./assets";
+import OvalWithName from "./components/OvalWithName";
+
 const App = () => {
     return (
         <BrowserRouter>
-            <div className="bg-[#121110]">
-                <div className="min-h-screen max-w-screen-xl px-20 ml-0 mr-auto">
-                    {/* <StarsCanvas /> */}
-
-                    <div className="flex justify-between gap-4">
-                        <header className="sticky top-0 flex max-h-screen w-[40%] flex-col justify-start py-12">
-                            <Navbar />
-                            <div className="flex h-64"></div>
-                        </header>
-
-                        {/* Right column - Scrollable content */}
-                        <main className="w-[60%] py-6">
-                            <Tech />
-                            <Experience />
-                            <Works />
-                        </main>
+            <div className="bg-[#1F1F1F]">
+                <div className="mx-8 pt-32">
+                    <Navbar />
+                    <div className="flex w-full justify-center ">
+                        <div className="flex flex-col w-full ml-10 ">
+                            <h1
+                                className={` text-white font-basement text-outline text-[110px]`}
+                            >
+                                LEON WU
+                            </h1>
+                            <h1
+                                className={` text-white font-basement text-[96px] -mt-16`}
+                            >
+                                PORTFOLIO
+                            </h1>
+                            <div className="flex justify-end items-end w-full -mt-16">
+                                <OvalWithName />
+                            </div>
+                        </div>
+                        <div className="flex justify-center items-center w-full">
+                            <div className="w-[500px] h-full">
+                                <img className="object-cover" src={fromsky} />
+                            </div>
+                        </div>
                     </div>
+
+                    <main className="w-[60%] py-6">
+                        <Tech />
+                        <Experience />
+                        <Works />
+                    </main>
                 </div>
                 {/* <EarthCanvas /> */}
             </div>
