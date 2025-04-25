@@ -25,7 +25,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`w-full fixed top-0 left-0 bg-[#1F1F1F]`}>
+        <nav className={`w-full fixed top-0 left-0 bg-[#171717]`}>
             <div className="flex justify-between items-center pr-8 pt-4">
                 <Link
                     to="/"
