@@ -5,7 +5,7 @@ import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 
-const Tech = () => {
+const About = () => {
     return (
         <>
             {/* <motion.div variants={textVariant()}>
@@ -22,4 +22,4 @@ const Tech = () => {
     );
 };
 
-export default SectionWrapper(Tech, "tech");
+export default SectionWrapper(About, "about");

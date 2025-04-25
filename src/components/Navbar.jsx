@@ -36,7 +36,7 @@ const Navbar = () => {
                     }}
                 ></Link>
 
-                <ul className="flex gap-8 py-2">
+                <ul className="flex gap-8 py-2 tracking-widest">
                     {navLinks.map((link) => (
                         <li
                             key={link.id}
@@ -44,7 +44,7 @@ const Navbar = () => {
                                 active === link.title
                                     ? "text-green"
                                     : "text-beige"
-                            } hover:text-white text-[18px] cursor-pointer font-mon`}
+                            } hover:text-white text-[18px] cursor-pointer font-mon `}
                             onClick={() => setActive(link.title)}
                         >
                             <a className="font-mon" href={`#${link.id}`}>
