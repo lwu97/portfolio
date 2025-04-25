@@ -21,7 +21,7 @@ const OvalWithName = () => {
 
     return (
         <div
-            className="flex items-center justify-center transform translate-y-6"
+            className="flex  transform translate-x-20"
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >

@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Experience, Navbar, Tech, Works } from "./components";
+import { About, Experience, Navbar, Works } from "./components";
 import { fromsky } from "./assets";
 import OvalWithName from "./components/OvalWithName";
 
@@ -34,8 +34,8 @@ const App = () => {
                         </div>
                     </div>
 
-                    <main className="w-full">
-                        <Tech />
+                    <main className="mx-auto">
+                        <About />
                         <Experience />
                         <Works />
                     </main>

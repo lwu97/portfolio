@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import Tech from "./Tech";
 
 const ServiceCard = ({ index, title, icon }) => {
     return (
@@ -36,15 +37,15 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
     return (
-        <>
-            {/* <motion.div variants={textVariant()}>
-                <h4 className={styles.sectionSubText}>A BIT ABOUT ME</h4>
-            </motion.div> */}
+        <div className="flex flex-col justify-center items-start w-full">
+            <motion.div variants={textVariant()}>
+                <h4 className={styles.sectionSubText}>ABOUT</h4>
+            </motion.div>
 
-            <div className="flex flex-row ">
+            <div className="flexw ">
                 <motion.p
                     variants={fadeIn("", "", 0.1, 1)}
-                    className=" text-beige text-[18px] max-w-3xl leading-[30px] font-mon"
+                    className=" text-beige text-[18px]  leading-[30px] font-mon"
                 >
                     I'm a skilled software developer with experience in
                     TypeScript and JavaScript, and expertise in frameworks like
@@ -54,7 +55,8 @@ const About = () => {
                     problems. Let's work together to bring your ideas to life!
                 </motion.p>
             </div>
-        </>
+            <Tech />
+        </div>
     );
 };
 
