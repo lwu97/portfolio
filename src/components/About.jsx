@@ -41,10 +41,10 @@ const About = () => {
       <div className="flex py-2">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className=" text-beige text-[28px] leading-[30px] font-mon font-light text-justify"
+          className="text-beige text-[24px] leading-relaxed font-mon font-light mx-auto tracking-wide"
         >
-          I’m a Full Stack developer with experience in React, Typescript,
-          Next.js, Tailwind and Node.js. I’m passionate about both design and
+          I'm a Full Stack developer with experience in React, Typescript,
+          Next.js, Tailwind and Node.js. I'm passionate about both design and
           development, creating smooth, user-friendly experiences that look
           great and perform well. I focus on building fast, interactive
           applications that are as functional as they are visually appealing.

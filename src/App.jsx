@@ -35,7 +35,7 @@ const App = () => {
 
           <main className="mx-auto">
             <About />
-            <Experience />
+            {/* <Experience /> */}
             <Works />
           </main>
         </div>
