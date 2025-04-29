@@ -38,7 +38,7 @@ const About = () => {
         <h4 className={styles.sectionSubText}>ABOUT</h4>
       </motion.div>
 
-      <div className="flex py-2">
+      <div className="flex my-8">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="text-beige text-[24px] leading-relaxed font-mon font-light mx-auto tracking-wide"
