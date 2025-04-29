@@ -39,13 +39,17 @@ const Navbar = () => {
         <ul className="flex gap-8 py-2 tracking-widest">
           {navLinks.map((link) => (
             <li
-              key={link.id}
+              key={link.link}
               className={`${
                 active === link.title ? "text-green" : "text-beige"
               } hover:text-white text-[18px] cursor-pointer font-mon `}
-              onClick={() => setActive(link.title)}
             >
-              <a className="font-mon" href={`#${link.id}`}>
+              <a
+                className="font-mon"
+                href={`${link.link}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 {link.title}
               </a>
             </li>
