@@ -41,7 +41,7 @@ const About = () => {
       <div className="flex my-8">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="text-beige text-[24px] leading-relaxed font-mon font-light mx-auto tracking-wide"
+          className="text-beige text-[18px] lg:text-[20px] leading-relaxed font-mon font-light mx-auto tracking-wide"
         >
           I'm a Full Stack developer with experience in React, Typescript,
           Next.js, Tailwind and Node.js. I'm passionate about both design and
