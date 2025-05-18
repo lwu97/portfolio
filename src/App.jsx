@@ -10,16 +10,16 @@ const App = () => {
       <div className="bg-[#171717]">
         <div className="mx-4 sm:mx-12 md:mx-16 lg:mx-4">
           <Navbar />
-          <div className="flex flex-col justify-center items-center min-h-full lg:flex-row lg:min-h-[800px] pt-16 lg:ml-auto xl:bg-red-200">
-            <div className="flex flex-col items-center justify-center lg:flex-row lg:mr-auto lg:ml-auto">
+          <div className="flex flex-col justify-center items-center min-h-full lg:flex-row lg:min-h-[800px] pt-16 lg:ml-auto ">
+            <div className="flex flex-col items-center justify-center lg:flex-row lg:ml-auto lg:mr-8 xl:pt-24">
               <div className="flex flex-col ">
                 <h1
-                  className={`text-[56px] sm:text-[64px] md:text-[96px] text-white font-basement text-outline lg:text-[72px]`}
+                  className={`text-[56px] sm:text-[64px] md:text-[96px] text-white font-basement text-outline lg:text-[92px] xl:text-[106px]`}
                 >
                   LEON WU
                 </h1>
                 <h1
-                  className={`text-[50px] sm:text-[58px] md:text-[86px] -mt-6 sm:-mt-8 md:-mt-10 text-white font-basement lg:text-[64px]`}
+                  className={`text-[50px] sm:text-[58px] md:text-[86px] -mt-6 sm:-mt-8 md:-mt-10 text-white font-basement lg:text-[78x] lg:-mt-14 xl:text-[100px] xl:-mt-16`}
                 >
                   PORTFOLIO
                 </h1>
@@ -28,8 +28,8 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justify-center items-center w-full lg:max-w-lg lg:mr-auto">
-              <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-lg">
+            <div className="flex justify-center items-center w-full lg:max-w-lg lg:mr-auto lg:ml-8 xl:max-w-xl">
+              <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-lg xl:max-w-xl">
                 <img
                   className="w-full h-auto object-cover"
                   src={fromsky}

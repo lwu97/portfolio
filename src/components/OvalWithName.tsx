@@ -20,7 +20,7 @@ const OvalWithName = () => {
 
   return (
     <div
-      className="flex w-full justify-center"
+      className="flex w-full justify-center xl:justify-end"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
