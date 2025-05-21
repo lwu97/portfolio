@@ -138,7 +138,7 @@ const projects = [
       }
     ],
     image: petsoft,
-    source_code_link: "https://github.com/lwu97/petsoft"
+    source_code_link: "https://petsoft-lime.vercel.app"
   },
   {
     name: "Breadit",
